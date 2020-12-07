@@ -12,6 +12,7 @@ import java.util.Locale;
  * @Date 2020/11/25 15:05
  * @Version 1.0
  */
+//国际化配置
 public class MyLocaleResolver implements LocaleResolver {
     @Override
     public Locale resolveLocale(HttpServletRequest httpServletRequest) {
